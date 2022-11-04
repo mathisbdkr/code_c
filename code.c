@@ -7,8 +7,17 @@
 
 #include "include/my.h"
 
+char* encode(int ac, char const **av)
+{
+    if (ac != 3) {
+        my_putstr("max argument number is 2\n");
+        my_putstr("1st arg is the encode nbr\n");
+        my_putstr("2nd arg is the string\n")
+        return ("max argument number is 2\n");
+    }
+}
+
 void main(int argc, char const **argv)
 {
-    int i = 0;
-    my_putstr(argv[1]);
+    encode(argc, argv);
 }
