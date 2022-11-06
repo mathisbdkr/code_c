@@ -13,7 +13,7 @@ char* encode(int ac, char **av)
     int i = 0;
     int key = my_getnbr(av[1]);
     int lettre = 0;
-    key = (((key * key) * 3.14159) / 9) * 42; 
+    key = (((key * key) * 3.14159) / 9) * 42;
     while (str[i]) {
         if (str[i] == ' ') {
             my_putstr(" |");
