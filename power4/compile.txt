@@ -1,0 +1,1 @@
+.\mingw32-gcc.exe -o puissance4.exe '..\power4\src\check_all_win.c' '..\power4\src\play_game.c' '..\power4\src\main.c' '..\power4\lib\my_getnbr.c' '..\power4\lib\my_putchar.c' '..\power4\lib\my_strcat.c' '..\power4\lib\int_to_string.c' '..\power4\src\check_win_line.c' '..\power4\src\utils.c' '..\power4\src\init_struct.c' -L '..\power4\include\my.h' -Wall -Wextra -lncurses
